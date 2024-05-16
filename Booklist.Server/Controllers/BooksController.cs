@@ -36,12 +36,12 @@ namespace Booklist.Server.Controllers
             return GetBookList(0);
         }
 
-        [HttpPost("setreserve/{id}/{comment}")]
+        [HttpPost("setreserved/{id}/{comment}")]
         public Task<IActionResult> SetReservedStatus(int id, string comment)
         {
             return SetStatusBook(1, id, comment);
         }
-        [HttpPost("setavailable/{id}")]
+        [HttpPost("setavailabled/{id}")]
         public Task<IActionResult> SetAvailableStatus(int id)
         {
             return SetStatusBook(0, id, string.Empty);
