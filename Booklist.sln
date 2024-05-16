@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booklist.Server", "Booklist.Server\Booklist.Server.csproj", "{AB79DE1D-F0F6-42A7-A371-8689E72662A8}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "booklist.client", "booklist.client\booklist.client.esproj", "{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB79DE1D-F0F6-42A7-A371-8689E72662A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB79DE1D-F0F6-42A7-A371-8689E72662A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB79DE1D-F0F6-42A7-A371-8689E72662A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB79DE1D-F0F6-42A7-A371-8689E72662A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AA6084-C181-4FE5-B1E2-ADAEF14328AF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B35E561E-9119-4F26-A982-7D7216D63844}
+	EndGlobalSection
+EndGlobal
